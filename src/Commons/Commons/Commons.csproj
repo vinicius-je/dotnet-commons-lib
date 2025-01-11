@@ -4,6 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+  <Version>1.0.0.0</Version>
+  <Authors>Vinicius Estevam</Authors>
+  <PackageTags>BaseEntity;BaseRepository,BaseService,BaseController</PackageTags>
+  <Description>
+    This library provides commons utils to construct a web api provinding base entity, dto, repository, service and controller.
+  </Description>
   </PropertyGroup>
 
   <ItemGroup>
