@@ -1,17 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <!-- General project information -->
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-  <Version>1.0.0.0</Version>
-  <Authors>Vinicius Estevam</Authors>
-  <PackageTags>BaseEntity;BaseRepository,BaseService,BaseController</PackageTags>
-  <Description>
-    This library provides commons utils to construct a web api provinding base entity, dto, repository, service and controller.
-  </Description>
-  </PropertyGroup>
 
+    <!-- NuGet package details -->
+    <Version>1.0.0.0</Version>
+    <Authors>Vinicius Estevam</Authors>
+    <PackageTags>BaseEntity;BaseRepository,BaseService,BaseController</PackageTags>
+    <Description>
+      This library provides commons utils to construct a web api provinding base entity, dto, repository, service and controller.
+    </Description>
+    <RepositoryUrl>https://github.com/vinicius-je/dotnet-commons-lib/</RepositoryUrl>
+  </PropertyGroup>
+  
+  <!-- Dependencies -->
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.1.3" />
   </ItemGroup>
