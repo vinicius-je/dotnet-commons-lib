@@ -7,14 +7,15 @@
     <Nullable>enable</Nullable>
 
     <!-- NuGet package details -->
-    <Version>1.0.0.3</Version>
+    <Version>1.0.0.4</Version>
     <Authors>Vinicius Estevam</Authors>
     <PackageTags>BaseEntity;BaseRepository,BaseService,BaseController</PackageTags>
     <Description>
       This library provides commons utils to construct a web api provinding base entity, dto, repository, service and controller.
     </Description>
     <RepositoryUrl>https://github.com/vinicius-je/dotnet-commons-lib</RepositoryUrl>
-    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/vinicius-je/dotnet-commons-lib</PackageProjectUrl>
+    <License>MIT</License>
   </PropertyGroup>
   
   <!-- Dependencies -->
