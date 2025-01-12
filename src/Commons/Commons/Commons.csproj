@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
 
     <!-- NuGet package details -->
-    <Version>1.0.0.0</Version>
+    <Version>1.0.0.1</Version>
     <Authors>Vinicius Estevam</Authors>
     <PackageTags>BaseEntity;BaseRepository,BaseService,BaseController</PackageTags>
     <Description>
